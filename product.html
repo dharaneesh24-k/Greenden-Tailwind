@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!--CDN Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Responsive Navbar-->
+    <nav class="shadow-xl bg-green-100 p-3 flex items-center justify-between sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="hidden md:flex gap-5 text-gray-600">
+            <li>
+                <a class="hover:underline text-black" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline text-black" href="contact.html"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Products Section -->
+    <div id="products" class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-5 justify-items-center">
+        <h1 class="text-3xl font-bold col-span-full">Our Products</h1>
+
+        <input type="text" placeholder="Search for a product..."
+            class="border border-black p-2 w-4/5 col-span-full justify-self-center mb-5" />
+        <div>
+            <img src="./images/BS1.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Rose Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS2.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Lily Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS3.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Kalanchoe Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS4.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Tulip Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS1.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Rose Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS2.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Lily Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS3.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Kalanchoe Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div>
+            <img src="./images/BS4.jpg" class="hover:shadow-xl transform hover:-translate-y-2 transition" alt="">
+            <h1>Tulip Plant</h1>
+            <p>$19.99</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
